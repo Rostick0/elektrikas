@@ -105,7 +105,20 @@
   }
 
   &__description {
+    color: #7a7a7a;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    row-gap: 1.5rem;
     line-height: 1.5;
+    overflow-wrap: break-word;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      row-gap: 1.5rem;
+    }
   }
 }
 
@@ -371,11 +384,12 @@
     max-width: 1000px;
 
     &__icon {
-      background-color: #f5dd3c;
+      background-color: rgb(255, 196, 0);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
+      font-size: 32px;
       margin-bottom: 24px;
       width: 80px;
       height: 80px;
